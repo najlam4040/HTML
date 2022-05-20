@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2>Student Details</h2>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter name" id="name" name="name"><br><br>
+
+        <label for="age">Age</label>
+        <input type="number" placeholder="Enter Age" id="age" name="age"><br><br>
+
+        <label for="image">Image</label>
+        <input type="file" id="image" name="image"><br><br>
+
+        <label for="education">Education</label>
+        <select id="education" name="education">
+            <option value="Degree">Degree</option>
+            <option value="Plus Two">Plus Two</option>
+            <option value="SSLC">SSLC</option>
+        </select><br><br>
+        
+        <label for="marriage_status">Are you married?</label>
+        <input type="checkbox" value="1" id="marriage_status" name="marriage_status"><br><br>
+
+        <p>Choode Your Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" value="Male" name="gender" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" value="Female" name="gender" id="female"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+</html>
